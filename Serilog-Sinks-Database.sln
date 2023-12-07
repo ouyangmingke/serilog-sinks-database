@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1F1FAB2-C10A-4DFE-A999-2F4E0C291A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.Database", "src\Serilog.Sinks.Database\Serilog.Sinks.Database.csproj", "{52B56215-BBDD-4071-AA4F-8D911965DE9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{9DB3D3C8-0D05-4EE5-A0F5-AFD6CAA4C7C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B56215-BBDD-4071-AA4F-8D911965DE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B56215-BBDD-4071-AA4F-8D911965DE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B56215-BBDD-4071-AA4F-8D911965DE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B56215-BBDD-4071-AA4F-8D911965DE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52B56215-BBDD-4071-AA4F-8D911965DE9B} = {D1F1FAB2-C10A-4DFE-A999-2F4E0C291A95}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FE4E727-16DB-4925-9D42-1C2BF8317470}
+	EndGlobalSection
+EndGlobal
